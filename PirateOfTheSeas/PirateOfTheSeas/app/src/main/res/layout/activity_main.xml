@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/rootLayout"
+    tools:context="com.example.pirateoftheseas.MainActivity"
+    android:background="@drawable/wall">
+
+
+
+    <TextView
+        android:id="@+id/highScoreTextView"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:text="High Score: 0"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible" />
+
+
+    <TextView
+        android:id="@+id/score"
+        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:text="Score : 0"
+        android:textAlignment="center"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:text="Start"
+        app:backgroundTint="#FD397C"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
